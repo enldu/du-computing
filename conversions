@@ -1,0 +1,23 @@
+ // F to C
+function temperatureConvert1(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("outputCelsiusResult").innerHTML = (valNum-32) / 1.8;
+  }
+  
+  // C to F
+  function temperatureConverter1(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("outputFahrenheitResult").innerHTML=(valNum*1.8)+32;
+  }
+  
+  // Ft. to M
+  function LengthConvert1(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("outputMetersResult").innerHTML=valNum/3.2808;
+  }
+  
+  // M to Ft.
+  function LengthConverter1(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("outputFeetResult").innerHTML=valNum*3.2808;
+  }
